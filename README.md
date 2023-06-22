@@ -24,7 +24,11 @@ Model with asked architecture is designed with option to have batch normalizatio
 
 ### Inference
 
-
+* Batch Normalization is giving best test accuracy. Layer Normalization & Group Normalization test accuracy are also close to Batch Normalization results but on lower side.
+* BN has relatively smoother progress (less erratic) graph for Test & Train accuracy than LN/GN.
+* BN loss (test & train) curves progressed quicker than LN/GN loss curves.
+* Training Accuracy graph for BN is nearly always on top of GN followed by LN accuracy graph.
+  
 ## Batch Normalization 
 
 ### Graphs:
